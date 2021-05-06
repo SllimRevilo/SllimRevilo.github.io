@@ -35,6 +35,8 @@ body{
 }
 .header a#logo img{
 	border:0;
+	height: 50px;
+	width: auto;
 }
 .header ul{
 	margin:0;
@@ -300,7 +302,7 @@ body{
 	width:940px;
 	background:url(../images/bg-footer.jpg) no-repeat center top;
 	padding:65px 10px 207px;
-	margin:0 auto;
+	margin: auto;
 	overflow:hidden;
 }
 .footer ul{
@@ -341,19 +343,19 @@ body{
 	margin:6px 0 0 135px;
 }
 .footer div.connect{
-	float:left;
+	float:right;
 	margin:0 0 0 92px;
 }
 .footer div.connect a{
 	float:left;
 	outline:none;
 }
-.footer div.connect a#facebook{
-	width:27px;
-	height:28px;
+.footer div.connect a#github{
+	width:32px;
+	height:32px;
 	display:block;
 	text-indent:-9999px;
-	background:url(../images/icons.gif) no-repeat;
+	background:url(../images/github-icon.png);
 }
 .footer div.connect a#twitter{
 	width:36px;
@@ -363,11 +365,11 @@ body{
 	background:url(../images/icons.gif) no-repeat 0 -48px;
 	margin:0 0 0 68px;
 }
-.footer div.connect a#vimeo{
+.footer div.connect a#linkedin{
 	width:32px;
-	height:28px;
+	height:32px;
 	display:block;
 	text-indent:-9999px;
-	background:url(../images/icons.gif) no-repeat 0 -96px;
+	background:url(../images/linked-in-icon.png);
 	margin:0 0 0 73px;
 }
