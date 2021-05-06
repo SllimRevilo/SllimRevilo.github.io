@@ -129,6 +129,8 @@ body{
 .body ul.blog li div a img{
 	border:0;
 	margin:0 0 0 -3px;
+	width: 250px;
+	height: 150px;
 }
 .body ul.blog li div a img:hover{
 	filter:alpha(opacity=80);
@@ -212,6 +214,7 @@ body{
 	margin:0;
 }
 .body ul li div.featured img{
+	
 	margin:10px 0 0 -3px;
 	border:0;
 }
@@ -234,6 +237,7 @@ body{
 }
 .body ul li div.featured ul li a img{
 	margin:0;
+	
 }
 .body ul li div.featured ul li a img:hover{
 	filter:alpha(opacity=80);
